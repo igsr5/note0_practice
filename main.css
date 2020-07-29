@@ -1,0 +1,43 @@
+/* ページ全体の設定 */
+
+body {
+    margin: 0;
+}
+
+
+/* コンテナ */
+
+.container {
+    max-width: 1178px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/* ヘッダー */
+
+header {
+    background-color: #2a7eb1;
+    height: 70px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    color: #ffffff;
+    margin-left: 30px;
+    letter-spacing: 0.075em;
+    font-family: 游ゴシック;
+}
