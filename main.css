@@ -76,3 +76,36 @@ header li {
     height: 26px;
     background-color: #2a7eb1;
 }
+
+.note-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 110px;
+}
+
+.note-items li {
+    width: 360px;
+    height: 360px;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(17, 51, 72, 0.2);
+}
+
+.note-items img {
+    width: 320px;
+    height: 200px;
+    margin-bottom: 20px;
+    vertical-align: bottom;
+}
+
+.note-items p {
+    margin: 0;
+    font-family: 游ゴシック;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.075em;
+    color: #3c3c3c;
+}
